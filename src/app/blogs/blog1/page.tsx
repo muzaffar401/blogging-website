@@ -13,7 +13,7 @@ const Blog1 = () => {
         
             <div className="relative w-full h-[300px]">
                 <Image
-                    src="https://www.ibm.com/blogs/think/wp-content/uploads/2020/01/experimentation-light-image-160-x-800.jpg"
+                    src="/blog1.jpg"
                     alt="AI in 2020: From Experimentation to Adoption"
                     layout="fill"
                     style={{ objectFit: 'cover' }}
@@ -39,7 +39,7 @@ const Blog1 = () => {
                 {/* Image next to text */}
                 <div className="relative w-full md:w-1/2 h-[300px] md:h-[400px]">
                     <Image
-                        src="https://www.ibm.com/blogs/think/wp-content/uploads/2020/01/AI-adoption-image.jpg"
+                        src="/blog1.jpg"
                         alt="AI adoption image"
                         layout="fill"
                         style={{ objectFit: 'cover' }}

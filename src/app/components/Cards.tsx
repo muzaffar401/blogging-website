@@ -14,7 +14,7 @@ const Cards = () => {
                         {/* Image with Link */}
                         <Link href={card.href}>
                             <Image
-                                className="rounded-t-lg sm:w-full cursor-pointer"
+                                className="rounded-t-lg sm:w-full cursor-pointer h-[250px]"
                                 src={card.img}
                                 alt="image"
                                 width={600}
